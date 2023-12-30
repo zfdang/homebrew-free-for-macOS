@@ -1,4 +1,4 @@
-class FreeForMacOS < Formula
+class FreeForMacos < Formula
   desc "Command-line memory status tool for macOS, similar to free(1) on Linux"
   homepage "https://github.com/zfdang/free-for-macOS"
   url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/v0.1.tar.gz"
