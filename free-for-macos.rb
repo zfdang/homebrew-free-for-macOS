@@ -3,7 +3,10 @@ class FreeForMacos < Formula
   homepage "https://github.com/zfdang/free-for-macOS"
   url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/v1.0.tar.gz"
   sha256 "1c2935d57c144951bd2d9133519d5482ad5e1fdbece15d2ec336c9704222f859"
+  license "MIT"
 
+  depends_on "cmake" => :build
+  
   def install
     cflags = %q(-O2 -Wall -std=c99 -D_FREE_VERSION="\"${VER}\"")
 
