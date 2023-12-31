@@ -1,8 +1,8 @@
 class FreeForMacos < Formula
   desc "Command-line memory status tool for macOS, similar to free(1) on Linux"
   homepage "https://github.com/zfdang/free-for-macOS"
-  url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/v0.1.tar.gz"
-  sha256 "1ec714121c373b013734fe0b3ebdea29ab25f7d493b7b9c857c89b424d2ac9a5"
+  url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/v1.0.tar.gz"
+  sha256 "1c2935d57c144951bd2d9133519d5482ad5e1fdbece15d2ec336c9704222f859"
 
   def install
     cflags = %q(-O2 -Wall -std=c99 -D_FREE_VERSION="\"${VER}\"")
