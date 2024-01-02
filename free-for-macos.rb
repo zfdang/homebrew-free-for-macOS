@@ -1,8 +1,8 @@
 class FreeForMacos < Formula
   desc "Command-line memory status tool for macOS, similar to free on Linux"
   homepage "https://github.com/zfdang/free-for-macOS"
-  url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "61d5727a6a999acfaa391384cfc0418531d1388e4ccda6db82ba5c4f8958c637"
+  url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/1.2.0.tar.gz"
+  sha256 "1a6395d9e2ec59d755c44f017748ebf8cce4d6793cd58ef0c78dbc6ea21bd714"
   license "MIT"
 
   depends_on "cmake" => :build
