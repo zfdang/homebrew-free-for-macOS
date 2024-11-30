@@ -15,6 +15,6 @@ class FreeForMacos < Formula
   end
 
   test do
-    system "free", "-V"
+    system "free", "-v"
   end
 end
