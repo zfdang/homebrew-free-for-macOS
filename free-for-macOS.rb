@@ -1,8 +1,8 @@
-class DarwinFree < Formula
+class free-for-macOS < Formula
   desc "Command-line memory status tool for MacOS X, similar to free(1) on Linux"
-  homepage "https://github.com/dcantrell/darwin-free"
-  url "https://github.com/dcantrell/darwin-free/archive/v0.5.1.tar.gz"
-  sha256 "3ecb8624898daec1d7968ba420f5c71b74b6306e1dc3038b9862fe64e9e6fcd0"
+  homepage "https://github.com/zfdang/free-for-macOS"
+  url "https://github.com/zfdang/free-for-macOS/archive/refs/tags/1.2.0.zip"
+  sha256 "29d65753f215947cc64fd3cf3f57479833543a2c501e1d4ea4a58809087eb355"
 
   def install
     cflags = %q(-O2 -Wall -std=c99 -D_FREE_VERSION="\"${VER}\"")
